@@ -1,6 +1,5 @@
+/*1.Ability to create a stack of 56,30,70..........UC1*/
 package com.stackandQueue;
-
-
 public class Stack {
     Node top;
     Node next;
@@ -66,7 +65,7 @@ public class Stack {
         stackoperation.push(30);   //push operation add 2nd element
 
         stackoperation.push(70);   //push operation add 3rd element
-        
+
         stackoperation.printStack();      // print operation
 
     }
